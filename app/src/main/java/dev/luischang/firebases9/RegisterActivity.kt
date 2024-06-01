@@ -1,6 +1,7 @@
 package dev.luischang.firebases9
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
@@ -60,7 +61,15 @@ class RegisterActivity : AppCompatActivity() {
                                     , Snackbar.LENGTH_LONG
                                 ).show()
                             }
+                    }else {
+                        Snackbar.make(
+                            findViewById(android.R.id.content)
+                            , "Ocurrió un error al registrar el usuario: ${task.exception.toString()}"
+                            , Snackbar.LENGTH_LONG
+                        ).show()
                     }
+                }.addOnFailureListener(this){error ->
+                    Log.e("ErrorFirebase",error.message.toString());
                 }
         }
 
