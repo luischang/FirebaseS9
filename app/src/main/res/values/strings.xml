@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FirebaseS9</string>
+    <string name="valetfullname">Full name</string>
+    <string name="valetcountry">Country</string>
+    <string name="valetEmail">Email</string>
+    <string name="valetpassword">Password</string>
+    <string name="valbtsaveregister">SAVE</string>
 </resources>
