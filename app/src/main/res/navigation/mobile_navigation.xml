@@ -3,23 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
-
+    app:startDestination="@id/nav_stadium">
     <fragment
-        android:id="@+id/nav_home"
-        android:name="dev.luischang.firebases9.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/nav_animals"
+        android:name="dev.luischang.firebases9.ui.fragments.AnimalsFragment"
+        android:label="fragment_animals"
+        tools:layout="@layout/fragment_animals" />
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="dev.luischang.firebases9.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_register"
+        android:name="dev.luischang.firebases9.ui.fragments.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="dev.luischang.firebases9.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_stadium"
+        android:name="dev.luischang.firebases9.ui.fragments.StadiumFragment"
+        android:label="fragment_stadium"
+        tools:layout="@layout/fragment_stadium" />
 </navigation>
