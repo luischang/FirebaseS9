@@ -22,4 +22,9 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valtitleroom">Save Register</string>
+    <string name="valbtsavecustomer">SAVE</string>
+    <string name="valetfirstname">First name</string>
+    <string name="valetlastname">Last name</string>
+    <string name="valetphonenumber">Phone number</string>
 </resources>
